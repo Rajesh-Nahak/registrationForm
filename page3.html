@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <button type="button"><a href="index.html" class="education" class="personal">PERSONAL</a></button>
+        <button type="button"><a href="page2.html" class="education">EDUCATION</a></button>
+        <button type="button"><a href="page3.html" class="document">DOCUMENT</a></button>
+    </nav>
+
+    <section>
+        <div class="container">
+            <div class="heading">
+                UPLOAD DOCUMENT
+            </div>
+            <form action="form" id="eventForm">
+                <div class="data">
+                    <label for="photograph">Recent Passport Size Photograph<span class="star">*</span>:(MAX Size 4MB)</label>
+                    <input type="file" id="photograph" name="myFile" accept=".jpg, .jpeg, .jfif, .pjpeg, .pjp" max="4194304" required>
+                </div>
+                <div class="data">
+                    <label for="mark-sheet">HSC Mark Sheet<span class="star">*</span>:(MAX Size 4MB)</label>
+                    <input type="file" id="hsc-mark-sheet" name="hsc-mark-sheet" accept=".pdf" max="4194304" required>
+                </div>
+                <div class="data">
+                    <label for="mark-sheet">SSC Mark Sheet<span class="star">*</span>:(MAX Size 4MB)</label>
+                    <input type="file" id="ssc-mark-sheet" name="ssc-mark-sheet" accept=".pdf" max="4194304" required>
+                </div>
+                <div class="data">
+                    <label for="mark-sheet">All Semester Mark Sheet<span class="star">*</span>:(MAX Size 10MB)</label>
+                    <input type="file" id="all-sem-mark-sheet" name="all-sem-mark-sheet" accept=".pdf" max="10485760" required>
+                </div>
+                <div class="button">
+                    <button type="button"><a href="page2.html" class="back">BACK</a></button>
+                    <button type="button" id="submit" onclick="submitForm()">SUBMIT</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <script>
+      function submitForm() {
+        alert('Successful!');
+      }
+      </script>
+</body>
+</html>

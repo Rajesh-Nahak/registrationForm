@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    min-height: 100vh;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+
+.container {
+    max-width: 680px;
+    width: 90%;
+    padding: 30px;
+    box-shadow: 0px 0px 20px black;
+    border-radius: 8px;
+    background-color: #EAF6F6;
+}
+
+.container .heading {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.container .data {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.container .data .star {
+    color: red;
+}
+
+/* ********** Refference from Page-1 ********** */
+.container .data label,#dob,#email,#gender,#nationality,#tel,#street {
+    width: 92%;
+    clear: both;
+    float: none;
+    height: 3vh;
+    padding: 5px;
+}
+
+/* ********** Refference from Page-2 ********** */
+.container .data #hsc-institution,#hsc-board,#hsc-score,#ssc-institution,#ssc-board,#ssc-score,#current-education,#current-institution,#hsc-score,#backlogs {
+    width: 93%;
+    clear: both;
+    float: none;
+    height: 3vh;
+    padding: 5px;
+}
+
+/* ********** Refference from Page-3 ********** */
+.container .data #photograph,#hsc-mark-sheet,#ssc-mark-sheet,#all-sem-mark-sheet {
+    width: 93%;
+    clear: both;
+    float: none;
+    height: 3vh;
+    padding: 5px;
+    border: solid black 1px;
+}
+
+.container .data .radio input {
+    width: 10%;
+    clear: left;
+    float: none;
+	cursor: pointer;
+}
+
+.container .data .single-column {
+    width: 100%;
+    float: none;
+}
+
+.container .data .single-column input {
+    width: 45%;
+    float: none;
+    height: 3vh;
+    padding: 5px;
+}
+
+.container .data #city,#country {
+    margin-top: 10px;
+    width: 45%;
+    float: none;
+    height: 3vh;
+    padding: 5px;
+}
+
+.container .data input {
+    border:solid #ABC270 1px;
+    margin-top: 10px;
+}
+
+.container .data input:hover {
+    border: solid black;
+}
+
+/* ********** BUTTON ********* */ 
+.next,#submit {
+	background-color:#44c767;
+	border-radius:8px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:10px 20px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.next:hover {
+	background-color:#5cbf2a;
+}
+#submit:hover {
+	background-color:#5cbf2a;
+}
+.next:active {
+	position:relative;
+	top:1px;
+}
+#submit:active {
+	position:relative;
+	top:1px;
+}
+
+/* ********** NAV BUTTON ********** */
+.back {
+	background-color:#DC3535;
+	border-radius:8px;
+	border:1px solid #FF0032;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:10px 20px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #FF7D7D;
+}
+.back:hover {
+	background-color:#FF0032;
+}
+.back:active {
+	position:relative;
+	top:1px;
+}
+ 
+.button {
+    float: right;
+    margin: 20px;
+}
+
+.personal,.education,.document {
+	background-color:#ffffff;
+	border-radius:10px;
+	border:1px solid #03001C;
+	display:inline-block;
+	cursor:pointer;
+	color:black;
+	font-family:Arial;
+	font-size:10px;
+	padding:5px 20px;
+	text-decoration:none;
+}
+.personal:hover {
+	background-color:#5cbf2a;
+}
+.education:hover {
+	background-color:#5cbf2a;
+}
+.document:hover {
+	background-color:#5cbf2a;
+}
+.personal:active {
+	position:relative;
+	top:1px;
+    background-color: red;
+}
+.education:active {
+	position:relative;
+	top:1px;
+    background-color: red;
+}
+.document:active {
+	position:relative;
+	top:1px;
+    background-color: red;
+}
+
+/* ********** NAVBAR ********* */ 
+nav {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    list-style-type: none;
+    margin: 20px;
+    height: 45px;
+}
+                

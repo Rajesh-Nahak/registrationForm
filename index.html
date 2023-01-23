@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <button type="button"><a href="index.html" class="education" class="personal">PERSONAL</a></button>
+        <button type="button"><a href="page2.html" class="education">EDUCATION</a></button>
+        <button type="button"><a href="page3.html" class="document">DOCUMENT</a></button>
+    </nav>
+
+    <section>
+        <div class="container">
+            <div class="heading">
+                PERSONAL DETAILS
+            </div>
+            <form action="form" id="eventForm">
+                <div class="data">
+                    <div class="single-row">
+                        <label for="name">Name<span class="star">*</span>:</label>
+                        <div class="single-column">
+                            <input type="text" id="first" name="User First Name" placeholder="First" required>
+                        
+                            <input type="text" id="last" name="User Last Name" placeholder="Last" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="data">
+                    <label for="dob">Date Of Birth<span class="star">*</span>:</label>
+                    <input type="date" id="dob" name="DOB" required>
+                </div>
+                <div class="data">
+                    <label for="email">Email<span class="star">*</span>:</label>
+                    <input type="email" id="email" name="Email" required>
+                </div>
+                <div class="data">
+                    <div class="single-row">
+                        <label for="father-name">Father's Name<span class="star">*</span>:</label>
+                        <div class="single-column">
+                            <input type="text" id="first" name="Fathers First Name" placeholder="First" required>
+                        
+                            <input type="text" id="last" name="Fathers Last Name" placeholder="Last" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="data">
+                    <div class="single-row">
+                        <label for="mother-name">Mother's Name<span class="star">*</span>:</label>
+                        <div class="single-column">
+                            <input type="text" id="first" name="Mothers First Name" placeholder="First" required>
+                        
+                            <input type="text" id="last" name="Mothers Last Name" placeholder="Last" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="data">
+                    <label for="gender">Gender<span class="star">*</span>:</label>
+                    <div class="radio">
+                        <label for="male">
+                            <input type="radio" value="M" name="Gender" id="male" required><span>M</span>
+                        </label><br>
+                        <label for="female">
+                            <input type="radio" value="F" name="Gender" id="female" required><span>F</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="data">
+                    <label for="nationality">Nationality<span class="star">*</span>:</label>
+                    <input type="text" id="nationality" name="Nationality" required>
+                </div>
+                <div class="data">
+                    <label for="address">Home Address<span class="star">*</span>:</label>
+                    <input type="text" id="street" name="Street" placeholder="Street Name" required>
+                    <input type="text" id="city" name="City" placeholder="City" required>
+                    <input type="text" id="country" name="Country" placeholder="Country" required>
+                    </div>
+                <div class="data">
+                    <label for="tel">Telephone - Home:</label>
+                    <input type="tel" id="tel" name="Telephone" placeholder="### ### ####">
+                </div>
+                <div class="data">
+                    <label for="tel">Telephone - Mobile<span class="star">*</span>:</label>
+                    <input type="tel" id="tel" name="Mobile" placeholder="### ### ####" required>
+                </div>
+                <div class="button">
+                    <button type="button"><a href="page2.html" class="next">NEXT</a></button>
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+</html>

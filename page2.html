@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <nav>
+        <button type="button"><a href="index.html" class="education" class="personal">PERSONAL</a></button>
+        <button type="button"><a href="page2.html" class="education">EDUCATION</a></button>
+        <button type="button"><a href="page3.html" class="document">DOCUMENT</a></button>
+    </nav>
+
+    <section>
+        <div class="container">
+            <div class="heading">
+                EDUCATIONAL DETAILS
+            </div>
+            <form action="form" id="eventForm">
+                <div class="data">
+                    <label for="institution">HSC Institution Name<span class="star">*</span></label>
+                    <input type="text" id="hsc-institution" name="Institution Name" placeholder="HSC Institution Name" required>
+                </div>
+                <div class="data">
+                    <label for="board">HSC Board<span class="star">*</span></label>
+                    <input type="text" id="hsc-board" name="HCS Board" placeholder="CBSE/ICSC/STATE" required>
+                </div>
+                <div class="data">
+                    <label for="score">Score in HSC<span class="star">*</span></label>
+                    <input type="number" id="hsc-score" name="HSC Score" placeholder="Score" step="0.01" min="0" max="100" required>
+                </div>
+                <div class="data">
+                    <label for="institution">SSC Institution Name<span class="star">*</span></label>
+                    <input type="text" id="ssc-institution" name="SSC Institution Name" placeholder="Institution Name" required>
+                </div>
+                <div class="data">
+                    <label for="board">SSC Board<span class="star">*</span></label>
+                    <input type="text" id="ssc-board" name="SSC Board" placeholder="CBSE/ICSC/STATE" required>
+                </div>
+                <div class="data">
+                    <label for="score">Score in SSC<span class="star">*</span></label>
+                    <input type="number" id="ssc-score" name="SSC Score" placeholder="Score" step="0.01" min="0" max="100" required>
+                </div>
+                <div class="data">
+                    <label for="current-education">Currently Pursuing<span class="star">*</span></label>
+                    <input type="text" id="current-education" name="Current-Education" placeholder="current-education" required>
+                </div>
+                <div class="data">
+                    <label for="current-institution">Current Educational Institution Name<span class="star">*</span></label>
+                    <input type="text" id="current-institution" name="Current Institution" placeholder="Current Institute" required>
+                </div>
+                <div class="data">
+                    <label for="score">Overall Percentage<span class="star">*</span></label>
+                    <input type="number" id="hsc-score" name="Overal Score" placeholder="Score" step="0.01" min="0" max="100" required>
+                </div>
+                <div class="data">
+                    <label for="backlogs">Current Backlogs<span class="star">*</span></label>
+                    <input type="number" id="backlogs" name="Backlogs" placeholder="Backlogs" min="0" max="10" required>
+                </div>
+                <div class="button">
+                    <button type="button"><a href="index.html" class="back">BACK</a></button>
+                    <button type="button"><a href="page3.html" class="next">NEXT</a></button>
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
